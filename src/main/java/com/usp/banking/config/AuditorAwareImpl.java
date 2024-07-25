@@ -8,6 +8,7 @@ public class AuditorAwareImpl implements AuditorAware<String> {
 
     @Override
     public Optional<String> getCurrentAuditor() {
+
         return Optional.of("admin");
     }
 }
